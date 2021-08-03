@@ -70,6 +70,15 @@ NP일 경우 이더넷 헤더의 DMAC을 보고 선별한다.
 ![image](https://user-images.githubusercontent.com/37138188/127981184-0960ea00-f726-4a01-a790-7ea3ded58264.png)
 ![image](https://user-images.githubusercontent.com/37138188/127982911-3fe3b70f-64e7-4c41-b3d2-2898c2309d50.png)
 
+---
 
+## 과제 설계
 
+1. 기존 send-arp 코드를 기반으로 작성
+2. Sender(Victim)에 Attacker MAC주소 삽입
+3. Target(Gateway)에 Attacker MAC주소 삽입
+4. 쓰레드 생성해서 지속적 ARP Attack
 
+~~왜 생각보다 별로 할 게 없지?~~
+
+---
